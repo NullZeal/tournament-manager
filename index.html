@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
     <title>Document</title>
-    <script src="script.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
 </head>
-<body>
 
-    
+<body>
+    <div id="textDisplay"></div>
+    <div>
+        <form action="index.html" method="post" name="text to speech" id="mainForm">
+            <input type="text" id="test">Text to speech</input>
+            <button type="submit"></button>
+        </form>
+        <div id="teamsDisplay"></div>
+        <div id="playersDisplay"></div>
+    </div>
 </body>
+
 </html>
